@@ -1,0 +1,68 @@
+1493883575137	geckodriver	INFO	Listening on 127.0.0.1:60754
+1493883577208	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1493883577620	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:671 < startup()@resource://gre/modules/AddonManager.jsm:834 < startup()@resource://gre/modules/AddonManager.jsm:3129 < observe()@resource://gre/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1493883581898	Marionette	INFO	Listening on port 60760
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2570: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1493883582494	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://code.jquery.com/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 356: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 684: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 2159: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+JavaScript warning: http://code.jquery.com/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 356: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 684: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 2159: unreachable code after return statement
+1493892973042	geckodriver	INFO	Listening on 127.0.0.1:61439
+1493892975110	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1493892975794	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:671 < startup()@resource://gre/modules/AddonManager.jsm:834 < startup()@resource://gre/modules/AddonManager.jsm:3129 < observe()@resource://gre/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1493892979360	Marionette	INFO	Listening on port 61445
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2570: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1493892980408	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://code.jquery.com/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 356: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 684: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 2159: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+JavaScript warning: http://code.jquery.com/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 356: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 684: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 2159: unreachable code after return statement
+1493893059535	geckodriver	INFO	Listening on 127.0.0.1:61563
+1493893061585	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1493893061935	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:671 < startup()@resource://gre/modules/AddonManager.jsm:834 < startup()@resource://gre/modules/AddonManager.jsm:3129 < observe()@resource://gre/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1493893065288	Marionette	INFO	Listening on port 61569
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2570: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1493893065764	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://code.jquery.com/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 356: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 684: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 2159: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+JavaScript warning: http://code.jquery.com/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 356: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 684: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 2159: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+1493893177875	geckodriver	INFO	Listening on 127.0.0.1:61697
+1493893179935	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1493893180180	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:671 < startup()@resource://gre/modules/AddonManager.jsm:834 < startup()@resource://gre/modules/AddonManager.jsm:3129 < observe()@resource://gre/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1493893183217	Marionette	INFO	Listening on port 61703
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2570: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1493893183623	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://code.jquery.com/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 356: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 684: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 2159: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
