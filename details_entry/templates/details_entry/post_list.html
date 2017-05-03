@@ -1,0 +1,149 @@
+<!--
+<html>
+<body>
+<form>
+State:<select>
+<option value="7">Andaman Nicobar</option>
+<option value="16">Andhra Pradesh</option>
+<option value="25">Arunachal Pradesh</option>
+<option value="5">Assam</option>
+<option value="1">Bihar</option>
+<option value="6">Chandigarh</option>
+<option value="23">Chhattisgarh</option>
+<option value="32">Dadra and  Nagar Haveli</option>
+<option value="31">Daman and Diu</option>
+<option value="8">Delhi</option>
+<option value="33">Goa</option>
+<option value="20">Gujarat</option>
+<option value="9">Haryana</option>
+<option value="10">Himachal Pradesh</option>
+<option value="11">Jammu and Kashmir</option>
+<option value="2">Jharkhand</option>
+<option value="18">Karnataka</option>
+<option value="17">Kerala</option>
+<option value="34">Lakshadweep</option>
+<option value="22">Madhya Pradesh</option>
+<option value="21">Maharashtra</option>
+<option value="28">Manipur</option>
+<option value="30">Meghalaya</option>
+<option value="27">Mizoram</option>
+<option value="0" selected="selected">NCDRC</option>
+<option value="26">Nagaland</option>
+<option value="3">Orissa</option>
+<option value="35">Pondicherry</option>
+<option value="12">Punjab</option>
+<option value="13">Rajasthan</option>
+<option value="24">Sikkim</option>
+<option value="19">Tamil Nadu</option>
+<option value="43">Telangana</option>
+<option value="29">Tripura</option>
+<option value="14">Uttar Pradesh</option>
+<option value="15">Uttaranchal</option>
+<option value="4">West Bengal</option></select>
+</select><br>
+City:<select><option value="0">Select</option><option value="113">Ajmer</option><option value="98">Alwar</option><option value="120">Banswara</option><option value="123">Baran</option><option value="109">Barmer</option><option value="99">Bharatpur</option><option value="116">Bhilwara</option><option value="95">Bikaner</option><option value="115">Bundi</option><option value="121">Chittaurgarh</option><option value="96">Churu</option><option value="103">Dausa</option><option value="100">Dhaulpur</option><option value="119">Dungarpur</option><option value="93">Ganganagar</option><option value="94">Hanumangarh</option><option value="628">Jaipur-I</option><option value="629">Jaipur-II</option><option value="650">Jaipur-III</option><option value="651">Jaipur-IV</option><option value="108">Jaisalmer</option><option value="110">Jalor</option><option value="124">Jhalawar</option><option value="97">Jhunjhunun</option><option value="107">Jodhpur</option><option value="652">Jodhpur-II</option><option value="101">Karauli</option><option value="122">Kota</option><option value="106">Nagaur</option><option value="112">Pali</option><option value="643">Pratapgarh</option><option value="117">Rajsamand</option><option value="102">Sawai Madhopur</option><option value="105">Sikar</option><option value="111">Sirohi</option><option value="114">Tonk</option><option value="118">Udaipur</option></select><br>
+
+Start Date(dd/mm/yyyy): <input type="text" name="FirstName" value=""><br>
+End Date(dd/mm/yyyy): 	<input type="text" name="LastName" value=""><br>
+Search With:			<select>
+<option value="1">Respondent</option>
+<option value="2">Complainant</option>
+<option value="3">CaseNumber</option>
+<option value="4">Advocate-Complainant</option>
+<option value="5">Advocate-Respondent</option>
+<option value="6">CaseType</option>
+<option value="7">Category</option></select><br>
+Name of Respondent: <input type="text" name="Name" value="Mickey"><br>
+<input type="submit" value="Submit">
+</form>  
+</body>
+</html>
+
+
+
+<html>
+<head>
+
+<script type="text/javascript" src="countryStateCity.js"></script>
+</head>
+<body>
+
+<fieldset style="width: 230px;">
+<legend><strong>Make your selection</strong></legend>
+<p>
+<form name="test" method="POST" action="processingpage.php">
+<table>
+<tr>
+<td style="text-align: left;">Country:</td>
+<td style="text-align: left;">
+<select name="country" id="country" onchange="setStates();">
+  <option value="Canada">Canada</option>
+  <option value="Mexico">Mexico</option>
+  <option value="United States">United States</option>
+</select>
+</td>
+</tr><tr>
+<td style="text-align: left;">State:</td>
+<td style="text-align: left;">
+<select name="state" id="state" onchange="setCities();">
+  <option value="">Please select a Country</option>
+</select>
+</td>
+</tr><tr>
+<td style="text-align: left;">City:</td>
+<td style="text-align: left;">
+<select name="city"  id="city">
+  <option value="">Please select a Country</option>
+</select>
+</td>
+</tr>
+</table>
+</form>
+</fieldset>
+
+</body>
+</html>
+-->
+{% load staticfiles %}
+<html>
+
+<head>
+<script type="text/javascript" href="{% static 'js/countryStateCity.js' %"></script>
+</head>
+<body>
+
+<fieldset style="width: 230px;">
+<legend><strong>Make your selection</strong></legend>
+<p>
+<form name="test" method="POST" action="processingpage.php">
+<table>
+<tr>
+<td style="text-align: left;">Country:</td>
+<td style="text-align: left;">
+<select name="country" id="country" onchange="setStates();">
+  <option value="Canada">Canada</option>
+  <option value="Mexico">Mexico</option>
+  <option value="United States">United States</option>
+</select>
+</td>
+</tr><tr>
+<td style="text-align: left;">State:</td>
+<td style="text-align: left;">
+<select name="state" id="state" onchange="setCities();">
+  <option value="">Please select a Country</option>
+</select>
+</td>
+</tr><tr>
+<td style="text-align: left;">City:</td>
+<td style="text-align: left;">
+<select name="city"  id="city">
+  <option value="">Please select a Country</option>
+</select>
+</td>
+</tr>
+</table>
+</form>
+</fieldset>
+
+</body>
+</html>
