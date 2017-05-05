@@ -29,7 +29,7 @@ class Member(models.Model):
 class State(models.Model):
 
          state=models.CharField(max_length=20)
-         country = models.ForeignKey(Country)       
+                
 
 class City(models.Model):
 
