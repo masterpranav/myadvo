@@ -1,8 +1,8 @@
-<!--
+
 <html>
 <body>
 <form>
-State:<select>
+State:<select name="State">
 <option value="7">Andaman Nicobar</option>
 <option value="16">Andhra Pradesh</option>
 <option value="25">Arunachal Pradesh</option>
@@ -41,11 +41,13 @@ State:<select>
 <option value="15">Uttaranchal</option>
 <option value="4">West Bengal</option></select>
 </select><br>
-City:<select><option value="0">Select</option><option value="113">Ajmer</option><option value="98">Alwar</option><option value="120">Banswara</option><option value="123">Baran</option><option value="109">Barmer</option><option value="99">Bharatpur</option><option value="116">Bhilwara</option><option value="95">Bikaner</option><option value="115">Bundi</option><option value="121">Chittaurgarh</option><option value="96">Churu</option><option value="103">Dausa</option><option value="100">Dhaulpur</option><option value="119">Dungarpur</option><option value="93">Ganganagar</option><option value="94">Hanumangarh</option><option value="628">Jaipur-I</option><option value="629">Jaipur-II</option><option value="650">Jaipur-III</option><option value="651">Jaipur-IV</option><option value="108">Jaisalmer</option><option value="110">Jalor</option><option value="124">Jhalawar</option><option value="97">Jhunjhunun</option><option value="107">Jodhpur</option><option value="652">Jodhpur-II</option><option value="101">Karauli</option><option value="122">Kota</option><option value="106">Nagaur</option><option value="112">Pali</option><option value="643">Pratapgarh</option><option value="117">Rajsamand</option><option value="102">Sawai Madhopur</option><option value="105">Sikar</option><option value="111">Sirohi</option><option value="114">Tonk</option><option value="118">Udaipur</option></select><br>
+<!--City:<select><option value="0">Select</option><option value="113">Ajmer</option><option value="98">Alwar</option><option value="120">Banswara</option><option value="123">Baran</option><option value="109">Barmer</option><option value="99">Bharatpur</option><option value="116">Bhilwara</option><option value="95">Bikaner</option><option value="115">Bundi</option><option value="121">Chittaurgarh</option><option value="96">Churu</option><option value="103">Dausa</option><option value="100">Dhaulpur</option><option value="119">Dungarpur</option><option value="93">Ganganagar</option><option value="94">Hanumangarh</option><option value="628">Jaipur-I</option><option value="629">Jaipur-II</option><option value="650">Jaipur-III</option><option value="651">Jaipur-IV</option><option value="108">Jaisalmer</option><option value="110">Jalor</option><option value="124">Jhalawar</option><option value="97">Jhunjhunun</option><option value="107">Jodhpur</option><option value="652">Jodhpur-II</option><option value="101">Karauli</option><option value="122">Kota</option><option value="106">Nagaur</option><option value="112">Pali</option><option value="643">Pratapgarh</option><option value="117">Rajsamand</option><option value="102">Sawai Madhopur</option><option value="105">Sikar</option><option value="111">Sirohi</option><option value="114">Tonk</option><option value="118">Udaipur</option></select><br>
+-->
 
-Start Date(dd/mm/yyyy): <input type="text" name="FirstName" value=""><br>
-End Date(dd/mm/yyyy): 	<input type="text" name="LastName" value=""><br>
-Search With:			<select>
+City: <input type="text" name="City" value=""><br>
+Start Date(dd/mm/yyyy): <input type="text" name="StartDate" value=""><br>
+End Date(dd/mm/yyyy): 	<input type="text" name="EndDate" value=""><br>
+Search With:			<select name="search_with">
 <option value="1">Respondent</option>
 <option value="2">Complainant</option>
 <option value="3">CaseNumber</option>
@@ -53,57 +55,17 @@ Search With:			<select>
 <option value="5">Advocate-Respondent</option>
 <option value="6">CaseType</option>
 <option value="7">Category</option></select><br>
-Name of Respondent: <input type="text" name="Name" value="Mickey"><br>
-<input type="submit" value="Submit">
+Name of Respondent: <input type="text" name="Name" value=""><br>
+<input type="submit" name="Submit" value="Submit">
 </form>  
 </body>
 </html>
 
 
 
-<html>
-<head>
 
-<script type="text/javascript" src="countryStateCity.js"></script>
-</head>
-<body>
 
-<fieldset style="width: 230px;">
-<legend><strong>Make your selection</strong></legend>
-<p>
-<form name="test" method="POST" action="processingpage.php">
-<table>
-<tr>
-<td style="text-align: left;">Country:</td>
-<td style="text-align: left;">
-<select name="country" id="country" onchange="setStates();">
-  <option value="Canada">Canada</option>
-  <option value="Mexico">Mexico</option>
-  <option value="United States">United States</option>
-</select>
-</td>
-</tr><tr>
-<td style="text-align: left;">State:</td>
-<td style="text-align: left;">
-<select name="state" id="state" onchange="setCities();">
-  <option value="">Please select a Country</option>
-</select>
-</td>
-</tr><tr>
-<td style="text-align: left;">City:</td>
-<td style="text-align: left;">
-<select name="city"  id="city">
-  <option value="">Please select a Country</option>
-</select>
-</td>
-</tr>
-</table>
-</form>
-</fieldset>
-
-</body>
-</html>
--->
+<!--
 {% load staticfiles %}
 <html>
 
@@ -147,3 +109,109 @@ Name of Respondent: <input type="text" name="Name" value="Mickey"><br>
 
 </body>
 </html>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+
+{% load staticfiles %}
+<html>
+<head>
+<title>Region > Country > Division</title>
+<style type="text/css">
+
+body {
+	background: #000;
+}
+#widget {
+	width: 780px;
+	height: 480px;
+	font: normal 10px verdana;
+	text-align: center;
+	margin: 40px auto;
+	border: 5px #aaa;
+	border-style: outset inset inset outset;
+	background: url(http://www.grsites.com/textures/misc/misc142.jpg);
+}
+form {
+	width: 98%;
+	margin: 200px 0 60px 0;
+}
+select {
+	width: 190px;
+	font: normal 11px verdana;
+	color: #fff;
+	background: #000;
+}
+#txtregion {
+	width: 98%;
+	height: 16px;
+	font: normal 12px verdana;
+	letter-spacing: .4em;
+	margin: auto;
+	border-bottom: 1px black solid;
+}
+#txtplacename {
+	width: 98%;
+	height: 16px;
+	font: normal 10px verdana;
+	margin: auto;
+}
+
+</style>
+<script type="text/javascript" href=" % static 'city_state.js'%"></script>
+</head>
+<body>
+<div id="widget">
+<form>
+Region&raquo; <select onchange="set_country(this,country,city_state)" size="1" name="region">
+<option value="" selected="selected">SELECT REGION</option>
+<option value=""></option>
+<script type="text/javascript">
+setRegions(this);
+</script>
+</select>
+Country&raquo; <select name="country" size="1" disabled="disabled" onchange="set_city_state(this,city_state)"></select>
+City/State&raquo; <select name="city_state" size="1" disabled="disabled" onchange="print_city_state(country,this)"></select>
+</form>
+<div id="txtregion"></div>
+<div id="txtplacename"></div>
+</div>
+</body>
+</html>
+
+<html>
+<head>
+&amp;lt;script type= "text/javascript" src = "countries.js"&amp;gt;&amp;lt;/script&amp;gt;
+</head>
+
+<body>
+    Select Country (with states):&amp;nbsp;&amp;nbsp; &amp;lt;select id="country" name ="country"&amp;gt;&amp;lt;/select&amp;gt;
+Select State: &amp;lt;select name ="state" id ="state"&amp;gt;&amp;lt;/select&amp;gt;
+ &amp;lt;script language="javascript"&amp;gt;
+populateCountries("country", "state");
+ &amp;lt;/script&amp;gt;
+
+	<div align="center">
+         <h1>Free JavaScript Country/State Selection Demo</h1>
+
+        <hr/>
+        <br/>Select Country (with states):
+        <select id="country" name="country"></select>
+        <br />State:
+        <select name="state" id="state"></select>
+        <br/>
+        <br />Select Country (without states):
+        <select id="country2" name="country2"></select>
+        <br />
+        <script language="javascript">
+            populateCountries("country", "state");
+            populateCountries("country2");
+        </script>
+        <br/>
+        <br/>
+        <br />
+        <br />
+    </div>
+</body>
+</html>
+-->
