@@ -11,3 +11,12 @@ Install GeckoDriver for Firefox https://github.com/mozilla/geckodriver/releases/
 Extract the geckodriver.exe and paste in myadvo\myvenv\selenium\webdriver\firefox 
 django-admin.py startproject mysite .
 Extract the zip file downloaded from https://github.com/masterpranav/myadvo in myadvo folder.
+
+TUI Version:
+In CMD type 
+python run.py
+
+GUI Version:
+In CMD Type
+python manage.py runserver
+Open 127.0.0.1:8000 in your Browser
