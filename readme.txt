@@ -13,7 +13,8 @@ django-admin.py startproject mysite .
 Extract the zip file downloaded from https://github.com/masterpranav/myadvo in myadvo folder.
 
 TUI Version:
-In CMD type 
+In CMD type
+cd tui 
 python run.py
 
 GUI Version:
