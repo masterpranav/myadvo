@@ -66,3 +66,32 @@ JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, 
 JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
 JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 2159: unreachable code after return statement
 JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+1493968140790	geckodriver	INFO	Listening on 127.0.0.1:49721
+1493968142509	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1493968144802	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:671 < startup()@resource://gre/modules/AddonManager.jsm:834 < startup()@resource://gre/modules/AddonManager.jsm:3129 < observe()@resource://gre/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1493968151020	Marionette	INFO	Listening on port 49728
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2570: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1493968152129	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://code.jquery.com/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 356: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 684: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 2159: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+JavaScript warning: http://code.jquery.com/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 356: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 684: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 2159: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+JavaScript warning: http://code.jquery.com/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 356: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 684: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 2159: unreachable code after return statement
+JavaScript warning: http://code.jquery.com/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 356: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 684: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 787: unreachable code after return statement
+JavaScript warning: http://cms.nic.in/ncdrcusersWeb/login.do?method=caseStatus, line 2159: unreachable code after return statement
